@@ -478,7 +478,6 @@ body {
 .footer .contanier {
     width: 100%;
     height: 100%;
-    background-color: var(--clr-master);
     background-image: url("../imgs/footer-bg.png");
     background-size: cover;
     padding-top: 150px;
