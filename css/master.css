@@ -121,6 +121,7 @@ body {
     width: 100%;
     height: 80vh;
     padding: 20px 50px;
+    background-color: var(--clr-master);
     background-image: url("../imgs/banner-bg.png");
     background-size: cover;
 }
