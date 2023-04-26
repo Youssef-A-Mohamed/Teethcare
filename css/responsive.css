@@ -1,0 +1,366 @@
+/*====================== Mobile Screen ======================*/
+@media screen and (max-width: 767px) {
+    body {
+        width: 750px;
+    }
+    .contanier {
+        width: 750px;
+    }
+    .headerAndHome {
+        height: 176vh;
+        width: 750px;
+        background-image: none;
+        background-color: #0995b4;
+    }
+    .about-us,
+    .feature,
+    .services,
+    .choose-us,
+    .contact-us {
+        width: 750px;
+    }
+    .header .contanier .logoAndContact .contact i,
+    .header .contanier .logoAndContact .contact h4,
+    .header .contanier .logoAndContact .contact h4 a {
+        display: none;
+    }
+    .header {
+        height: 200px;
+    }
+    .header .contanier {
+        width: 100%;
+        padding: 25px;
+    }
+    .header .contanier .logoAndContact {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+    .header .contanier .logoAndContact .figure {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .header .contanier .logoAndContact .figure img {
+        width: 40rem;
+        }
+    .header .contanier .navgation ul {
+        width: 100%;
+    }
+    .header .contanier .navgation ul li a {
+        font-size: 2.5rem;
+    }
+    .home .contanier {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+        height: 151vh;
+    }
+    .home .contanier .heading h1 {
+        font-size: 7rem;
+        margin-left: 25px;
+    }
+    .home .contanier .heading p {
+        font-size: 2.9rem;
+    }
+    .home .contanier .figure img,
+    .about-us .contanier .figure img {
+        width: 585px;
+    }
+    .about-us .contanier {
+        width: 90%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about-us .contanier .heading {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .about-us .contanier .heading p {
+        font-size: 2.9rem;
+    }
+    .about-us .contanier .heading h2 {
+        font-size: 6rem;
+        margin-right: 0;
+    }
+    .about-us .contanier .heading .btn .read-more {
+        margin-top: 30px;
+    }
+    .services .contanier {
+        width: 90%;
+    padding: 50px;
+    text-align: center;
+    }
+    .services .contanier .imgAndChoose {
+        flex-direction: column;
+    }
+    .services .contanier .services-choose {
+        flex-direction: column;
+    }
+    .services .contanier .services-choose .choose {
+        width: 500px;
+    }
+    .services .contanier .services-choose .choose .img img {
+        width: 250px;
+    }
+    .services .contanier .services-choose .choose .title h4 {
+        font-size: 3rem;
+        width: 255px;
+    }
+    .services .contanier .imgAndChoose .figure img {
+        width: 500px;
+    }
+    .services .contanier .services-choose .choose .para p {
+        font-size: 2.5rem;
+        width: 430px;
+    }
+    .read-more {
+        width: 200px;
+        font-size: 2.5rem;
+        height: 70px;
+    }
+    .spatial-paragraph {
+        font-size: 2.8rem;
+    }
+    .feature .contanier .box .choose-doctor {
+        flex-direction: column;
+    }
+    .feature .contanier .box {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .feature .contanier {
+        width: 90%;
+    }
+    .feature .contanier .heading {
+        text-align: center;
+    }
+    .feature .contanier .box .title {
+        margin-bottom: 60px;
+        text-align: center;
+        margin-left: 0;
+        width: fit-content;
+    }
+    .feature .contanier .box .title .btn {
+        width: 205px;
+    }
+    .feature .contanier .box .column {
+        display: inline-block;
+        text-align: center;
+    }
+    .feature .contanier .box .choose-doctor .choose {
+        width: 500px;
+        margin: 0 0;
+        margin-bottom: 30px;
+    }
+    .footer .contanier .box .head .heading {
+        width: fit-content;
+    }
+    .feature .contanier .box .choose-doctor .choose .figure {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .feature .contanier .box .choose-doctor .choose .figure img {
+        width: 450px;
+    }
+    .feature .contanier .box .title p {
+        font-size: 2.2rem;
+        line-height: 25px;
+    }
+    .feature .contanier .box .choose-doctor .choose .heading h4, 
+    .feature .contanier .box .choose-doctor .choose .heading p {
+        font-size: 3.4rem;
+    }
+    .feature .contanier .box .choose-doctor .choose .heading {
+        width: 290px;
+    }
+    .choose-us .contanier {
+        width: 90%;
+    }
+    .choose-us .contanier .heading h2 {
+        font-size: 6rem;
+        width: 450px;
+    }
+    .choose-us .contanier .paragraph p {
+        font-size: 3rem;
+    }
+    .contact-us .contanier {
+        width: 100%;
+    }
+    .contact-us .contanier .heading {
+        width: 615px;
+    }
+    .contact-us .contanier form input {
+        height: 70px;
+        margin-bottom: 40px;
+        font-size: 2.2rem;
+        width: 700px;
+    }
+    .footer {
+        width: 750px;
+        padding: 0;
+        height: 90vh;
+    }
+    .footer .contanier .box {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0;
+    }
+    .footer .contanier {
+        background-image: none;
+        background-color: #0995b4;
+        padding-top: 0;
+    }
+    .footer .copyright-pragraph {
+        width: 670px;
+        padding: 15px;
+    }
+    .footer .contanier .box .head .heading p {
+        font-size: 2rem;
+    }
+    .footer .contanier .box .head .heading h4 {
+        font-size: 4rem;
+        margin-bottom: 30px;
+    }
+    .footer .copyright-pragraph p,
+    .footer .copyright-pragraph p > a {
+        font-size: 2.4rem;
+    }
+}
+
+/*====================== Medium Screen ======================*/
+@media screen and (min-width: 767px) and (max-width: 992px) {
+    .contanier {
+        width: 970px;
+    }
+    .headerAndHome {
+        height: 135vh;
+        width: 970px;
+        background-image: none;
+        background-color: #0995b4;
+    }
+    .home {
+        margin-top: 130px;
+        height: fit-content;
+    }
+    .home .contanier {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .home .contanier .heading h1 {
+        font-size: 5rem;
+    }
+    .home .contanier .heading p {
+        font-size: 2rem;
+    }
+    .home .contanier .figure img {
+        width: 500px;
+    }
+    .header .contanier .logoAndContact .contact i,
+    .header .contanier .logoAndContact .contact h4,
+    .header .contanier .logoAndContact .contact h4 a {
+        display: none;
+    }
+    .header .contanier .logoAndContact .figure {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .header .contanier {
+        width: 100%;
+    }
+    .about-us .contanier {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .about-us .contanier .heading h2 {
+        margin: 0;
+    }
+    .about-us .contanier .heading .btn .read-more {
+        margin-top: 30px;
+    }
+    .about-us .contanier .heading {
+        margin-left: 0;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .services .contanier {
+        width: 90%;
+    }
+    .feature .contanier .box .column {
+        flex-direction: column;
+        text-align: center;
+    }
+    .feature .contanier {
+        width: 85%;
+    }
+    .feature .contanier .box .choose-doctor .choose {
+        width: 197px;
+        margin-left: 20px;
+        margin-bottom: 80px;
+    }
+    .choose-us .contanier {
+        width: 80%;
+    }
+    .choose-us .contanier .paragraph p {
+        font-size: 1.8rem;
+    }
+    .contact-us .contanier {
+        width: 100%;
+    }
+    .contact-us .contanier .heading {
+        width: 700px;
+    }
+    .footer .contanier .box {
+        width: 100%;
+        padding: 150px 50px 0;
+        justify-content: space-around;
+    }
+    .footer {
+        height: 90vh;
+    }
+    .about-us,
+    .feature,
+    .services,
+    .choose-us,
+    .contact-us {
+        width: 970px;
+    }
+}
+
+/*====================== Large Screen ======================*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .contanier {
+        width: 1170px;
+    }
+    .headerAndHome,
+    .contact-us .contanier,
+    .about-us .contanier,
+    .services .contanier,
+    .contact-us .contanier,
+    .feature .contanier {
+        width: 1170px;
+        padding: 0 50px;
+    }
+    .home .contanier {
+        padding: 0 0;
+        width: 100%;
+    }
+    .header .contanier {
+        padding: 0 0;
+        width: 100%;
+    }
+    .about-us,
+    .feature,
+    .services,
+    .choose-us,
+    .contact-us {
+        width: 1170px;
+    }
+    .footer .contanier .box { 
+        width: 81%;
+    }
+}
