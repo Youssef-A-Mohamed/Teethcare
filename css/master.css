@@ -212,6 +212,12 @@ body {
     max-width: 100%;
     height: auto;
     width: 500px;
+    animation: up-and-down linear infinite 1s alternate;
+}
+@keyframes up-and-down {
+    to {
+        transform: translateY(-20px);
+    }
 }
 /* section home ends */
 
@@ -334,9 +340,15 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.feature .contanier .box .column .figure img {
+    animation: up-and-down linear infinite alternate 1s;
+    box-shadow: none;
+}
 .feature .contanier .box .figure img {
     max-width: 100%;
     height: auto;
+    box-shadow: 0 0 20px rgba(0 0 0 / 0.5);
+    border-radius: 15px;
 }
 .feature .contanier .box .title {
     width: 330px;
